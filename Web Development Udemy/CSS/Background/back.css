@@ -1,0 +1,20 @@
+div {
+    width: 620px;
+    height: 450px;
+    margin: 20px auto;
+    border: 1px solid;
+    text-align: center;
+    color: aliceblue;
+}
+
+div {
+    /* background-image: url('https://files.oyebesmartest.com/public/img-subcategory/cb-background-qoRpk.webp'); */
+    /* background-image: url('https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg'); */
+    /* background-image: url('https://i.pinimg.com/550x/4a/6f/59/4a6f59296f90c11d77744720ca10d1af.jpg'); */
+    /* background-image: url('https://burst.shopifycdn.com/photos/elaborate-building-interior-with-light-teal-walls.jpg?width=1200&format=pjpg&exif=1&iptc=1'); */
+    /* background-image: url('https://cdn.siasat.com/wp-content/uploads/2021/03/srk.jpg'); */
+    background-image: url('https://stat1.bollywoodhungama.in/wp-content/uploads/2021/10/Shah-Rukh-Khan-family-pray-as-Aryan-Khan%E2%80%99s-bail-comes-up-again-today-2.jpg');
+    background-size: contain;
+    /* background-position: center; */
+    /* background-repeat: no-repeat; */
+}

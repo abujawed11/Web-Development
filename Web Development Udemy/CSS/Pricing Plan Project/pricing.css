@@ -1,0 +1,149 @@
+body {
+    background-color: #60a9ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* min-height: 80vh; */
+
+    /* display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center; */
+    /* height: 100%; */
+    /* margin: 0; */
+    /* padding: 0;  */
+
+
+
+
+}
+
+/* * {
+    font-family: 'Kolker Brush', cursive;
+    /* font-family: 'Raleway', sans-serif; */
+
+
+img{
+    margin-top: 200px;
+    max-width: 100%;
+    background-size: contain;
+}
+
+.panel {
+    font-family: 'Open Sans','Kolker Brush', cursive;
+    text-transform: uppercase;
+    /* font-weight: 600; */
+    max-width: fit-content;
+    max-height: fit-content;
+    /* font-size: 16px; */
+    background-color: white;
+    /* height: 60vh; */
+    margin-top: 15vh;
+    padding-top: 2em;
+    border-radius: 10px;
+    padding: 2em 2em;
+    /* padding-top: 100px; */
+    display: flex;
+    flex-direction: row;
+    /* flex-basis: 200px; */
+    justify-content: space-evenly;
+    /* align-items: flex-start; */
+    text-align: center;
+    
+
+    /* border: 2ps solid black;
+    max-width: 70%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center; */
+    /* margin: 12%; */
+}
+
+.pricing-header{
+    color: #888;
+    font-weight: 16px;
+    border-bottom: 1px solid #e1f1ff;;
+    padding: 20px 20px;
+
+}
+
+.pricing-features-item{
+    color: #016ff9;
+    font-weight: 600;
+    font-size: 12px;
+    border-bottom: 1px solid #e1f1ff;
+    padding: 15px 0px;
+
+}
+
+.pricing-price{
+    display: block;
+    color: #016ff9;
+    font-weight: bold;
+    font-size: 35px;
+    /* border-bottom: 1px solid #888; */
+    padding: 15px 0px;
+}
+
+.pricing-plan{
+    border-right: 1px solid #e1f1ff;
+    max-height: 450px
+}
+
+.pricing-plan:last-child{
+    border-right: none;
+}
+
+.pricing-plan{
+    width: 180px;
+    height: 600px;
+    padding: 3em 3em;
+}
+
+.pricing-header{
+    
+    padding-bottom: 3em;
+    font-weight: 600;
+}
+
+
+.pricing-button{
+    color: #348efe;;
+    border: 1px solid #9dd1ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100px;
+    text-decoration: none;
+    border-radius: 10px;
+    margin: 25px auto;
+    padding: 15px 30px;
+}
+
+
+@media (max-width: 910px) {
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .panel{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        min-width: 90%;
+        min-height: 100%;
+    }
+    .pricing-plan{
+        border-right: none;
+        min-width: 80%;
+        min-height: 100%;
+        border-bottom: 1px solid #e1f1ff;
+    }
+    .panel.pricing-table{
+        margin-bottom: 0;
+    }
+}

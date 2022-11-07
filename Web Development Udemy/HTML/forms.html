@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms Fill</title>
+</head>
+
+<body>
+    <h1>Udemy Form</h1>
+    <form action="udemy">
+        <p>
+            <label for="username">Username: </label>
+            <input type="text" placeholder="username" id="username" name="user">
+        </p>
+        <p>
+            <label for="pass">Password: </label>
+            <input type="password" placeholder="password" id="pass" name="pass">
+        </p>
+        <p>
+            <label for="color">Pick the color: </label>
+            <input type="color" id="color" name="col">
+        </p>
+        <p>
+            <label for="num">Number: </label>
+            <input type="number" placeholder="number" id="num" name="num">
+        </p>
+        <!-- Adding checkBox -->
+        <p>
+            <label for="check">Veg</label>
+            <input type="checkbox" id="check" name="selected" checked> 
+        </p>
+        <p>
+            <label for="check2">Non Veg</label>
+            <input type="checkbox" id="check2" name="selected" >
+        </p>
+        <!-- Adding Radio Button-->
+        <p>
+            <label for="gen1">Male</label>
+            <input type="radio" id="gen1" name="gender" value="M"><!--value is useful only in radio input-->
+        </p>
+        <p>
+            <label for="gen2">Female</label>
+            <input type="radio" id = "gen2" name="gender" value="F">
+        </p>
+        <p>
+            <label for="range">Amount of cheese?</label>
+            <input type="range" id="cheese" name="cheese_level" min="0" max="10" step="2" value="2">
+        </p>
+        <p>
+            <label for="Area">Enter your comments below:</label><br>
+            <textarea name="textArea" id="Area" cols="30" rows="10" placeholder="Input some comments!!"></textarea>
+        </p>
+        <p>
+            <button>Submit</button>
+        </p>
+        <button type="button">Dont Submit</button>
+        <!--Only button-->
+        <button type="submit">Can Submit again</button>
+        <!--Form submit Button-->
+        <input type="Submit" value="Click Me">
+
+        <!--Id in input and for in Label sholud be same for linking
+            For a <form> element, the name attribute is used as a reference when the data is submitted
+        -->
+
+
+
+    </form>
+    <h2>Google Search</h2>
+    <form action="https://www.google.com/search">
+        <input type="text" name="q">
+        <button>Google It!</button>
+    </form>
+    <h2>YouTube search</h2>
+    <form action="https://www.youtube.com/results">
+        <input type="text" name="search_query" id="">
+        <button>Youtbe It!</button>
+    </form>
+
+    <h2>Form Validations</h2>
+    <form action="Validate">
+        <p>
+            <label for="username">Enter Username: </label>
+            <input type="text" id="username" name="username" placeholder="username" required minlength="5" maxlength="15">
+        </p>
+        <button>Submit</button>
+        <p>
+            <input type="email" required>
+        </p>
+        
+    </form>
+</body>
+
+</html>

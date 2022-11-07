@@ -1,0 +1,62 @@
+body{
+    background-color: #03045e;
+}
+h1{
+    color: #fb5607;
+    text-align: center;
+    text-decoration: #fcbf49 underline wavy;
+}
+button{
+    background-color: #ffc8dd;
+}
+
+#nav{
+    text-align: right;
+}
+.section{
+    color: #fcbf49;
+    font-size: medium;
+}
+.section a{
+    color: #a2d2ff;
+}
+.section a:hover{
+    background-color: #6a994e;
+}
+
+.content a{
+    color: #fb5607;
+}
+.content a:hover{
+    background-color: #fcbf49;
+}
+#click button:hover{
+    background-color: aqua;
+}
+#click a{
+    text-decoration: none;
+}
+#click button:active{
+    text-decoration: #d90429 underline;
+    background-color: aliceblue;
+}
+
+.pseudo:nth-of-type(2n-1){
+    color: #fb5607;
+}
+
+.pseudo:nth-of-type(2n){
+    color: #6a994e;
+}
+
+.section::selection{
+    background-color: #15a710;
+}
+
+.pseudo::selection{
+    background-color: black;
+}
+
+.pseudo::first-letter{
+    font-size: 40px;
+}

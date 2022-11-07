@@ -1,0 +1,30 @@
+h1{
+    text-align: center;
+}
+.class1{
+    width: 250px;
+    border: 2px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+.class2{
+    width: 250px;
+    border-width: 2px;
+    border-style: solid;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+.class3{
+    /* width: 350px; */
+    width: 50%;
+    border: 2px solid red;
+    border-left-style: dotted;
+    border-right-style: groove;
+    border-radius: 5px;
+    padding: 0px 0px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}

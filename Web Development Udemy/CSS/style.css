@@ -1,0 +1,10 @@
+h1{
+    color: blueviolet;
+    text-align: center;
+    text-decoration: #ff890f underline wavy; 
+}
+p{
+    line-height: 2;
+    letter-spacing: 2px;
+    font-weight: 500;
+}

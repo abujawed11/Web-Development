@@ -1,0 +1,29 @@
+html{
+    font-size: 16px;
+}
+
+article{
+    font-size: 1.5rem;
+}
+h2{
+    font-size: 24px;
+    display: inline;
+    margin-right: 40px;
+    font-weight: normal;
+}
+#ques{
+    font-size: 1.5rem;
+}
+h3{
+    font-size: 1.5rem;
+    display: inline;
+    font-weight: normal;
+}
+
+p{
+    font-size: 1.5rem;
+}
+
+ul{
+    font-size: 2rem;
+}

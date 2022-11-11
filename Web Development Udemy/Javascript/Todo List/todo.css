@@ -1,0 +1,9 @@
+h1{
+    color: blueviolet;
+}
+
+li{
+    border: 2px solid red;
+    width: 200px;
+    background-color: palegreen;
+}
